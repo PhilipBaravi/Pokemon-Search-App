@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1b3b;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#pokemon-details {
+  display: none;
+}
+#search-input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #7c4dff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #651fff;
+}
+
+.pokemon-details {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image-container {
+  margin: 20px 0;
+}
+
+#sprite {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.type {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #48d0b0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #7c4dff;
+  color: white;
+}
+
+td {
+  background-color: #e1bee7;
+}
